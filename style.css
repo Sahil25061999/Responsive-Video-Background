@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: iciel 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body,html{
+    margin:0px;
+}
+
+
+
+.fullscreen{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heading_container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+
+#myvideo{
+    z-index:-1;
+    height: auto;
+    width:auto;
+    min-width: 100%;
+    min-height: 100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+
+}
+
+
